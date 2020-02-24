@@ -2,12 +2,14 @@ package main
 
 import (
 	"context"
-	"go.mongodb.org/mongo-driver/mongo"
-	"go.mongodb.org/mongo-driver/mongo/options"
 	"log"
 	"os"
-	"climber-auto/db"
-	"climber-auto/web"
+
+	"go.mongodb.org/mongo-driver/mongo"
+	"go.mongodb.org/mongo-driver/mongo/options"
+
+	"climber/db"
+	"climber/web"
 )
 
 func main() {

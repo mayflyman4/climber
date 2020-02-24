@@ -8,5 +8,5 @@ db.tech.insert({
 });
 db.tech.insert({
     "name": "MongoDB",
-    "details": "A general purpose, document-based, distributed database."
+    "details": "BKS A general purpose, document-based, distributed database."
 });

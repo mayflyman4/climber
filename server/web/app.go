@@ -1,10 +1,10 @@
 package web
 
 import (
+	"climber/db"
 	"encoding/json"
 	"log"
 	"net/http"
-	"climber-auto/db"
 )
 
 type App struct {

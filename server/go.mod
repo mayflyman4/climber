@@ -1,4 +1,4 @@
-module climber-auto
+module climber
 
 go 1.13
 

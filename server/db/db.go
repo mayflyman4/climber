@@ -1,11 +1,12 @@
 package db
 
 import (
+	"climber/model"
 	"context"
+	"log"
+
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
-	"log"
-	"climber-auto/model"
 )
 
 type DB interface {
