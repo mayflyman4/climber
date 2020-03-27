@@ -18,10 +18,10 @@ body {
 }
 
 .sidebar-link {
-    padding: 13px;
+    padding: 20px;
     text-align: center;
     font-family: sans-serif, serif, Impact, Haettenschweiler, 'Arial Narrow Bold' ;
-    /* font-weight: 2000; */
+    font-weight: 2000;
 }
 
 .sidebar-link:hover {

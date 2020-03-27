@@ -35,7 +35,7 @@ export default class SidebarContent extends Component {
           <div className="sidebar-link">My Profile</div>
           <div className="sidebar-link">Browse all Treks</div>
           <div className="sidebar-link">Trek Gears for rent</div>
-          <div className="sidebar-link">Find a suitable Trek</div>
+          <div className="sidebar-link">Find a Trek for me</div>
           {/* <div className="sidebar-link">Contact Us</div> */}
         </div>
       )}

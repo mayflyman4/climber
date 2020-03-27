@@ -15,8 +15,7 @@ const ProfileDetails = ({ account }) => {
     <p> <span className="header-profile-name"> {account.name}
     </span> <span className="header-profile-trek-details-logout"> Log out  </span> </p>
 
-
-    <p> <span className="header-profile-trek-details"> Completed {account.trekCount} Treks and spent {account.trekDays} days in Trekking </span> </p>
+    <p> <span className="header-profile-trek-details"> Completed {account.trekCount} Treks and spent {account.trekDays} days in Trekking :{account.isSocialLogged}:</span> </p>
   </div>
 }
 
@@ -24,7 +23,6 @@ const ProfilePicture = ({ account }) => {
   return <div>
     <ConfigProvider cache={cache}>
       <Avatar src={account.logo} name={account.name} size="120" round={true} />
-      {/* <Avatar src="https://lh3.googleusercontent.com/a-/AOh14GhlcyauOPw_5yp13uu7CzOfve1tmup68XIsMbdnyPM=s96-c" size="120" round={true} /> */}
     </ConfigProvider>
   </div >
 }
