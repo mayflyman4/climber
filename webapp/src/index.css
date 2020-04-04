@@ -21,7 +21,7 @@ body {
     padding: 20px;
     text-align: center;
     font-family: sans-serif, serif, Impact, Haettenschweiler, 'Arial Narrow Bold' ;
-    font-weight: 2000;
+    font-weight: 530;
 }
 
 .sidebar-link:hover {
@@ -55,33 +55,73 @@ body {
     /* margin: 0; */
     /* padding: 25px; */
     line-height: 1.5em;
-    /* min-height: 100vh; */
+    min-height: 100vh;
     font-family: 'Playfair Display',serif;
-    background-color: white;
 }
 
 .content-header {
     /* margin-top: 3; */
     padding-top: 2%;
     padding-bottom: 0.5%;
+    padding-right: 3%;
     display: flex;
-    /* line-height: 1.5em; */
-    min-height: 15vh;
+    line-height: 1.5em;
+    min-height: 10vh;
     font-family: 'Playfair Display',serif;
-    background-color: rgb(212, 161, 181);
+    background-color: rgb(163, 231, 197);
+}
+.header-social-login-text {
+    width: 100%;
+    padding-top: 2%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    /* background-color: blue; */
+}
+
+.header-social-login {
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    text-align: center;
+    /* background-color: blue; */
+}
+
+.header-social-login-options{
+    /* padding-right: 20%;
+    padding-left: 20%; */
+    width: 100%;
+    /* background-color: red; */
+    padding-left: 30px;
+}
+
+.header-social-login-option{
+    /* padding: 20px; */
+    /* width: 100%; */
+    /* background-color: blue; */
+    padding-right: 2%;
 }
 
 .header-profile-details-space {
+    padding-top: 2%;
     width: 80%;
     padding-left: 5%;
-    min-height: 15vh;
+    min-height: 10vh;
 }
 
 .header-picture-space {
     text-align: center;
     padding-right: 12%;
     padding-top: 1%;
-    padding-bottom: 1%;
+    /* padding-bottom: 1%; */
+}
+
+.header-profile-trek-details-logout {
+    text-align: center;
+    font-family: 'Playfair Display',serif;
+    font-size: 13px;
+    font-weight: bold;
+    min-width: 12vh;
 }
 
 .header-profile-name {
@@ -95,13 +135,6 @@ body {
     text-align: left;
     font-family: 'Playfair Display',serif;
     font-size: 23px;
-}
-
-.header-profile-trek-details-logout {
-    padding-left: 1%;
-    text-align: left;
-    font-family: 'Playfair Display',serif;
-    font-size: 13px;
 }
 
 .content-body {

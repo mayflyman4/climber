@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import SidebarIcon from './SidebarIcon'
 import SidebarContent from './SidebarContent'
+import MenuOpenSharpIcon from '@material-ui/icons/MenuOpenSharp';
+import MenuSharpIcon from '@material-ui/icons/MenuSharp';
 
 export default class Sidebar extends Component {
   state = {
@@ -15,7 +16,6 @@ export default class Sidebar extends Component {
 
   render() {
     return <div className="sidebar-container">
-      {/* logo comes here */}
 
       {/* sidebar icon loaded from SidebarIcon.js*/}
       <div className="sidebar-close-icon">
@@ -30,4 +30,10 @@ export default class Sidebar extends Component {
 
     </div>
   }
+}
+
+const SidebarIcon = ({ handleClick, isOpen }) => {
+  return <span onClick={handleClick}>
+    {isOpen ? <MenuOpenSharpIcon /> : <MenuSharpIcon />}
+  </span>
 }

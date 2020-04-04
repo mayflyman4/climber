@@ -30,6 +30,7 @@ export default class SidebarContent extends Component {
           ...linkStyle,
           ...linkTransitionStyles[state]
         }}>
+          {/* TODO: change application logo here */}
           <div className="sidebar-logo"><img src={logo} height="120px" alt="logo" /></div>
           <div className="sidebar-link">Home</div>
           <div className="sidebar-link">My Profile</div>
